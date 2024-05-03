@@ -1,0 +1,5 @@
+Create a function calculateArea that takes the radius of a circle as an input and returns the area of the circle.
+Write a loop that logs numbers from 1 to 50. For multiples of 3, log "Fizz" instead of the number, and for multiples of 5, log "Buzz".
+Define an array temperatures with at least five different temperatures (numbers). Write a script to find and log the highest temperature.
+Create a script that prompts the user to enter their age and then logs whether they are a minor (under 18) or an adult.
+Write a function that takes an array of numbers and returns the count of positive numbers in the array.
