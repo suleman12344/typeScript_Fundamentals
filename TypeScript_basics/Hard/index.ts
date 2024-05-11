@@ -37,3 +37,22 @@ function revers(arr: number[]) {
 }
 let num2_arr: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(`the reverse arr :${(num2_arr = revers(num2_arr))}`);
+
+//Write a script that simulates a basic calculator. It should take two operands and an operator ('+', '-', '*', '/') from the user, perform the operation, and log the result.
+
+function calculator(num1: number, num2: number, operator: string) {
+  if (operator === "+") {
+    return num1 + num2;
+  } else if (operator === "-") {
+    return num1 - num2;
+  } else if (operator === "*") {
+    return num1 * num2;
+  } else {
+    return num1 / num2;
+  }
+}
+let operator = "+";
+let num = 2;
+let num3 = 3;
+let result1 = calculator(num, num3, operator);
+console.log(`${num} ${operator} ${num3} = ${result1}`);

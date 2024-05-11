@@ -52,9 +52,56 @@ let string_arr2 = [
 ];
 findDuplicates(string_arr2);
 //Write a function incrementAll that takes an array of integers and increments each element by one.
+function incrementAll(arr) {
+    let inc_arr = [];
+    for (let i = 0; i < arr.length; i++) {
+        inc_arr.push(arr[i] + 1);
+    }
+    return inc_arr;
+}
+let num_arr = [1, 2, 2, 4, 5, 6, 2, 8, 9, 10];
+let new_arr = [];
+new_arr = incrementAll(num_arr);
+console.log(`after increment all the element of the arr the arr is : ${new_arr}`);
 //Develop a function countOccurrences that counts how many times a specific element appears in an array.
+function count(arr, value) {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === value) {
+            count++;
+        }
+    }
+    return count;
+}
+let value_toFound = 2;
+let result1 = count(num_arr, value_toFound);
+console.log(`Number of count ${value_toFound} in an arr : ${result1}`);
 //Create a function isSorted that checks if an array is sorted in ascending order.
+function isSorted(arr) {
+    for (let i = 0; i < arr.length - 1; i++) {
+        if (arr[i] > arr[i + 1]) {
+            return false;
+        }
+    }
+    return true;
+}
+let checkArr = ["a", "b", "c"];
+if (isSorted(checkArr))
+    console.log("The array is sorted");
+else
+    console.log("The array is not sorted");
 //Write a function that receives an array of names and formats them into a string separated by commas, except for the last two names, which should be separated by "and".
 //Develop a function that converts an array of Fahrenheit temperatures to Celsius and logs the new temperatures.
+function temp_convert(arr) {
+    let new_tem = [];
+    for (let i = 0; i < arr.length; i++) {
+        new_tem.push((arr[i] - 32) * (5 / 9));
+    }
+    return new_tem;
+}
+let fahrenheit = [78, 98, 90, 77, 89];
+let new_tem_arr = [];
+new_tem_arr = temp_convert(fahrenheit);
+console.log(`after changing the fahrenheit temperature into celciuse is : ${new_tem_arr}`);
 //Write a function minMaxAverage that takes an array of numbers and returns an object with properties for the minimum, maximum, and average of those numbers.
 //Create a function swapElements that swaps two specified indices in an array.
