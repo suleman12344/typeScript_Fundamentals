@@ -1,0 +1,5 @@
+Develop a function that takes two inputs, a string and a character, and returns the number of times the character appears in the string.
+Create a 'to-do list' array of objects where each object has properties task and completed (a boolean). Write a function to log only the tasks that are not yet completed.
+Write a function that takes an array of integers and sorts them from smallest to largest.
+Develop a TypeScript program that logs every element of an array in reverse order without using the .reverse() method.
+Write a script that simulates a basic calculator. It should take two operands and an operator ('+', '-', '*', '/') from the user, perform the operation, and log the result.
