@@ -1,0 +1,10 @@
+Write a function calculateProduct that takes an array of numbers and returns the product of all elements.
+Develop a function filterByLength that takes an array of strings and a number n. The function should return an array containing only the strings that are longer than n characters.
+Create a function findDuplicates that finds and logs all duplicates in an array.
+Write a function incrementAll that takes an array of integers and increments each element by one.
+Develop a function countOccurrences that counts how many times a specific element appears in an array.
+Create a function isSorted that checks if an array is sorted in ascending order.
+Write a function that receives an array of names and formats them into a string separated by commas, except for the last two names, which should be separated by "and".
+Develop a function that converts an array of Fahrenheit temperatures to Celsius and logs the new temperatures.
+Write a function minMaxAverage that takes an array of numbers and returns an object with properties for the minimum, maximum, and average of those numbers.
+Create a function swapElements that swaps two specified indices in an array.
